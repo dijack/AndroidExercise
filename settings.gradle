@@ -1,2 +1,2 @@
-include ':helloworld', ':activityexercise', ':serviceexercise'
+include ':helloworld', ':activityexercise', ':serviceexercise', ':broadcastreceiverexercise'
 rootProject.name = "AndroidExercise"
