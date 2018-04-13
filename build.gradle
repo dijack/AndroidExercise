@@ -20,6 +20,16 @@ allprojects {
     }
 }
 
+subprojects {
+    apply plugin: 'com.android.application'
+
+    android {
+        lintOptions {
+            abortOnError false
+        }
+    }
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
